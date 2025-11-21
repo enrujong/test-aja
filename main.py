@@ -13,3 +13,11 @@ def tambah_kontak():
     nomor = input("Masukkan nomor telepon: ")
     kontak[nama] = nomor
     print("Kontak berhasil ditambahkan!")
+
+def hapus_kontak():
+    nama = input("Masukkan nama kontak yang ingin dihapus: ")
+    if nama in kontak:
+        del kontak[nama]
+        print("Kontak berhasil dihapus!")
+    else:
+        print("Kontak tidak ditemukan.")
