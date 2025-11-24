@@ -21,3 +21,5 @@ def hapus_kontak():
         print("Kontak berhasil dihapus!")
     else:
         print("Kontak tidak ditemukan.")
+
+def edit_kontak():
